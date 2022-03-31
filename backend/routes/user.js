@@ -1,15 +1,17 @@
-export const signup = (req, res) => {
+const signup = (req, res) => {
   res.status(200).json({ result: "success" });
 };
 
-export const login = (req, res) => {
+const login = (req, res) => {
   res.status(200).json({ result: "success" });
 };
 
-export const update = (req, res) => {
+const update = (req, res) => {
   res.status(200).json({ result: "success" });
 };
 
-export const remove = (req, res) => {
+const remove = (req, res) => {
   res.status(200).json({ result: "success" });
 };
+
+module.exports = { signup, login, update, remove };

@@ -1,11 +1,13 @@
-export const create = (req, res) => {
+const create = (req, res) => {
   res.status(200).json({ result: "success" });
 };
 
-export const update = (req, res) => {
+const update = (req, res) => {
   res.status(200).json({ result: "success" });
 };
 
-export const remove = (req, res) => {
+const remove = (req, res) => {
   res.status(200).json({ result: "success" });
 };
+
+module.exports = { create, update, remove };
